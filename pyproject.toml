@@ -1,0 +1,23 @@
+[project]
+name = "dsa-practice-python"
+version = "0.1.0"
+description = "Repository for DSA (Data Structures and Algorithms) Practice in Python"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bandit>=1.8.6",
+    "black>=25.1.0",
+    "click>=8.2.1",
+    "commitizen>=4.8.3",
+    "hypothesis>=6.135.29",
+    "isort>=6.0.1",
+    "mypy>=1.16.1",
+    "numpy>=2.3.1",
+    "pre-commit>=4.2.0",
+    "pydocstyle>=6.3.0",
+    "pytest>=8.4.1",
+    "pytest-benchmark>=5.1.0",
+    "pytest-cov>=6.2.1",
+    "rich>=14.0.0",
+    "ruff>=0.12.3",
+]
