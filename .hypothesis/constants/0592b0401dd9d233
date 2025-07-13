@@ -1,0 +1,4 @@
+# file: /home/marcel/dsa-practice-python/.venv/bin/pytest
+# hypothesis_version: 6.135.29
+
+['-script.pyw', '.exe', '__main__']
