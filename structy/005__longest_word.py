@@ -1,7 +1,7 @@
 import pytest
 
 
-def longest_word(sentence):
+def longest_word(sentence: str) -> str:
     if not isinstance(sentence, str):
         raise TypeError("sentence must be str")
 
