@@ -21,3 +21,10 @@ dependencies = [
     "rich>=14.0.0",
     "ruff>=0.12.3",
 ]
+
+
+[tool.pytest.ini_options]
+python_files = ["*.py"]
+python_classes = ["Test*", "*Test*", "*Tests"]
+python_functions = ["test_*", "*_test", "check_*", "validate_*"]
+testpaths = ["."]
